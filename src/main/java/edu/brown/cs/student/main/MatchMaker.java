@@ -29,6 +29,7 @@ public class MatchMaker {
 		String output = "Sun: " + horoscopes.get(sunHash % horoscopes.size()) + 
 				"; Moon: " + horoscopes.get(moonHash % horoscopes.size()) + 
 				"; Rising: " + horoscopes.get(risingHash % horoscopes.size());
+
 		return output;
 	}
 }
